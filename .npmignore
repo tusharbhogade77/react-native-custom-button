@@ -1,0 +1,41 @@
+# Ignore node_modules (npm automatically ignores this)
+node_modules
+src/
+src
+
+
+# Ignore build directories (if you're generating compiled files like JS)
+dist
+build
+
+# Ignore configuration files and metadata that are unnecessary for end-users
+npm-debug.log
+yarn.lock
+package-lock.json
+tsconfig.json
+.eslintignore
+.eslintrc
+.prettierrc
+.prettierignore
+
+# Ignore testing files
+__tests__/
+coverage/
+jest.config.js
+
+# Ignore documentation files if not needed in the npm package
+README.md
+*.md
+
+# Ignore example/demo files if you have any
+example/
+demo/
+src/App.tsx
+
+# Ignore TypeScript source files if you only want to publish the compiled output
+src/**/*.ts
+src/**/*.tsx
+
+# Keep only relevant build files for end-users
+!src/CustomButton.tsx
+!src/CustomTextInput.tsx

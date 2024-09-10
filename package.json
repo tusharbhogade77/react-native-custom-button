@@ -1,9 +1,10 @@
 {
-  "name": "react-native-custom-button",
+  "name": "react-native-custom-button-magic",
   "version": "1.0.0",
   "description": "Reusable Custom Button component for React Native projects",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "private":false,
   "scripts": {
     "build": "tsc --outDir lib", 
     "prepublishOnly": "npm run build"
@@ -13,6 +14,10 @@
     "component",
     "custom-button",
     "typescript"
+  ],
+  "files": [
+    "lib/",
+    "README.md"
   ],
   "author": "Tushar",
   "license": "MIT",
